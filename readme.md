@@ -5,8 +5,18 @@
 2. bật môi trường ao bằng copy activate.bat path và run trong terminal
 
 3. Cài FLASK trên môi trường ảo
-pip -install flask
+   pip -install flask
 
 4. giữ môi trường để chỉ có thể share phiên bản thư viện vì dung lượng lớn
-    pip freeze > requirement.txt
+   pip freeze > requirement.txt
 
+# Chạy project
+
+## Setup biến môi trường
+
+set FLASK_APP=app.py
+set FLASK_DEBUG=1
+
+## Chạy server
+
+- `flask run`
